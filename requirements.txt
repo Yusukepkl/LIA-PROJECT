@@ -1,6 +1,0 @@
-PySide6
-opencv-python
-google-api-python-client
-openai
-SQLAlchemy
-grook-python-sdk
