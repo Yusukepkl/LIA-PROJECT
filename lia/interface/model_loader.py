@@ -23,5 +23,6 @@ class ModelController(QObject):
         """Gira o rosto em direção ao ponto normalizado (x, y)."""
         if not self.model:
             return
-        self.model.setProperty('lookX', x - 0.5)
-        self.model.setProperty('lookY', y - 0.5)
+        yaw = (x - 0.5) * 30
+        pitch = (y - 0.5) * -30
+        self.model.setProperty('eulerRotation', QVector3D(pitch, yaw, 0))

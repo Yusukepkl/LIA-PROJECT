@@ -30,7 +30,7 @@ Window {
 
             Model {
                 id: liaModel
-                source: Qt.resolvedUrl("../assets/Lia.glb")
+                source: Qt.resolvedUrl("../../assets/Lia.glb")
             }
         }
     }

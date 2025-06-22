@@ -36,3 +36,8 @@ personagem seja renderizada corretamente.
 - `lia/database` – armazenamento de histórico com SQLite
 
 Consistências entre respostas são verificadas antes de exibir.
+
+## Contribuicao
+
+- Todos os commits e resumos de pull request devem ser escritos em portugues.
+- Cada alteracao precisa ser registrada numericamente em `PATCHNOTES.md`.
